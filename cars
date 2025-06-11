@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Car Brands</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            margin: 40px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        li {
+            margin: 6px 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>List of Car Brands</h1>
+    <ul>
+        <li>Mercedes</li>
+        <li>BMW</li>
+        <li>Audi</li>
+        <li>Toyota</li>
+        <li>Hyundai</li>
+        <li>Honda</li>
+        <li>Opel</li>
+        <li>Chevrolet</li>
+        <li>Nissan</li>
+        <li>Renault</li>
+        <li>Skoda</li>
+        <li>Jaguar</li>
+        <li>Bentley</li>
+        <li>Fiat</li>
+        <li>Suzuki</li>
+        <li>Volkswagen</li>
+        <li>Subaru</li>
+        <li>Mitsubishi</li>
+        <li>Mazda</li>
+        <li>Citroen</li>
+    </ul>
+</body>
+</html>
+    <body>
+    <img src="https://media.giphy.com/media/l0HlOvJ7yaacpuSas/giphy.gif" alt="Car Animation" style="width:200px; display:block; margin-bottom:20px;" />
+    <h1>List of Car Brands</h1>
+    <ul>
+        <!-- your list items -->
+    </ul>
+</body>
