@@ -67,10 +67,7 @@
   </style>
 </head>
 <body>
-  <h1>Програма с Prolog за животни и GIF визуализация</h1>
-
-  
-
+ 
   <h1>Prolog животни с различни правила и GIF</h1>
 
   <textarea id="prolog-input">
@@ -90,20 +87,48 @@ is_predator(X).
 
     // Разширена база знания с животни и правила
     const knowledge = `
-      animal(lion).
+     % Животни
+animal(lion).
 animal(elephant).
 animal(tiger).
+animal(wolf).
+animal(whale).
+animal(dolphin).
+animal(giraffe).
+animal(bear).
+animal(fox).
+animal(rabbit).
+animal(eagle).
+animal(shark).
+animal(kangaroo).
 
-% Козина (бозайници)
+% Бозайници
 mammal(lion).
-
+mammal(elephant).
+mammal(tiger).
+mammal(wolf).
+mammal(whale).
+mammal(dolphin).
+mammal(giraffe).
+mammal(bear).
+mammal(fox).
+mammal(rabbit).
+mammal(kangaroo).
 
 % Големи животни
 big(elephant).
+big(whale).
+big(giraffe).
+big(bear).
 
 % Хищници
-
 predator(tiger).
+predator(lion).
+predator(wolf).
+predator(bear).
+predator(fox).
+predator(shark).
+predator(eagle).
 
 % Правила
 is_mammal(X) :- mammal(X).
